@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Icons  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo App</title>
+</head>
+
+<body>
+
+    <div class="heading-div">
+        <h1 class="center-align">todo's</h1>
+    </div>
+
+
+    <div class="card small" id="add-todos-container">
+        <div class="row">
+            <form class="col s12" id="todo-form">
+                <div class="row">
+                    <div class="input-field col s8" style="display: inline-block">
+                        <i class="material-icons prefix">mode_edit</i>
+                        <input name="todoInput" placeholder="Add a task to do" id="add-todo" type="text" class="validate">
+                        <!-- <label for="first_name">Add a task to do</label> -->
+                    </div>
+                        
+                    <button id="add-btn" class="waves-effect waves-light btn green darken-1">Add todo</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- <div class="row" id="container-todos">
+        Content
+    </div> -->
+
+    <div class="main-container">
+        
+    </div>
+
+    <!-- script link for uuid -->
+    <script src="uuid.js"></script>
+
+    <!-- Todo functions javascript file -->
+    <script src="todo-functions.js"></script>
+
+    <!-- Real javascript file -->
+    <script src="todo.js"></script>
+</body>
+
+</html>
+
+
+<!-- Sample todos -->
+
+<!-- 
+
+
+<div class="main-container">
+    <div class="card small" id="todos-container">
+        <span id="todo-checkbox" class="badge">
+            <label>
+                <input type="checkbox" />
+                <span></span>
+            </label>
+        </span>
+        <span id="todo-name">Wash Clothes</span>
+        <span class="badge">
+            <i class="material-icons delete-btn">delete</i>
+        </span>
+    </div>
+
+    <div class="card small" id="todos-container">
+        <span id="todo-checkbox" class="badge">
+            <label>
+                <input type="checkbox" />
+                <span></span>
+            </label>
+        </span>
+        <span id="todo-name">Wash Clothes</span>
+        <span class="badge">
+            <i class="material-icons">delete</i>
+        </span>
+    </div>
+
+    <div class="card small" id="todos-container">
+        <span id="todo-checkbox" class="badge">
+            <label>
+                <input type="checkbox" />
+                <span></span>
+            </label>
+        </span>
+        <span id="todo-name">Wash Clothes</span>
+        <span class="badge">
+            <i class="material-icons">delete</i>
+        </span>
+    </div>
+
+    <div class="card small" id="todos-container">
+        <span id="todo-checkbox" class="badge">
+            <label>
+                <input type="checkbox" />
+                <span></span>
+            </label>
+        </span>
+        <span id="todo-name">Wash Clothes</span>
+        <span class="badge">
+            <i class="material-icons">delete</i>
+        </span>
+    </div>
+
+    <div class="card small" id="todos-container">
+        <span id="todo-checkbox" class="badge">
+            <label>
+                <input type="checkbox" />
+                <span></span>
+            </label>
+        </span>
+        <span id="todo-name">Wash Clothes</span>
+        <span class="badge">
+            <i class="material-icons">delete</i>
+        </span>
+    </div>
+
+
+    <div class="card small" id="todos-container">
+        <span id="todo-checkbox" class="badge">
+            <label>
+                <input type="checkbox" />
+                <span></span>
+            </label>
+        </span>
+        <span id="todo-name">Wash Clothes</span>
+        <span class="badge">
+            <i class="material-icons">delete</i>
+        </span>
+    </div>
+
+
+    <div class="card small" id="todos-container">
+        <span id="todo-checkbox" class="badge">
+            <label>
+                <input type="checkbox" />
+                <span></span>
+            </label>
+        </span>
+        <span id="todo-name">Wash Clothes</span>
+        <span class="badge">
+            <i class="material-icons">delete</i>
+        </span>
+    </div>
+
+    <div class="card small" id="todos-container">
+        <span id="todo-checkbox" class="badge">
+            <label>
+                <input type="checkbox" />
+                <span></span>
+            </label>
+        </span>
+        <span id="todo-name">Wash Clothes</span>
+        <span class="badge">
+            <i class="material-icons">delete</i>
+        </span>
+    </div>
+
+    <div class="card small" id="todos-container">
+        <span id="todo-checkbox" class="badge">
+            <label>
+                <input type="checkbox" />
+                <span></span>
+            </label>
+        </span>
+        <span id="todo-name">Wash Clothes</span>
+        <span class="badge">
+            <i class="material-icons">delete</i>
+        </span>
+    </div>
+</div> -->
